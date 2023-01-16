@@ -1,13 +1,12 @@
 body {
-    background-color: gray;
+    background-color: #fff;
 }
 
 section {
+    display: flex;
+    flex-direction: column;
     margin: auto;
     width: 90%;
-    border-style: solid;
-    border-color: black;
-    border-radius: 50px;
 }
 
 img {
@@ -18,7 +17,7 @@ img {
 nav {
     height: 80px;
     display: flex;
-    background-color: gray;
+    background-color: #fff;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
@@ -46,50 +45,21 @@ nav a:hover {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.about-me {
+.about-me, .work, .contact-me, .resume {
     line-height: normal;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 100%;
+    width: 80%;
     height: 200px;
-    border-bottom: solid black;
-    border-radius: 50px;
+    border-left: solid black;
+    border-radius: 20px;
     text-indent: 2%;
+    margin: 2%;
+    margin-left: 10%;
 }
 
 .about-me::before {
     font-family: Impact;
     content: 'About Me';
-    align-content: flex-start;
-}
-
-.work {
-    line-height: normal;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 100%;
-    height: 200px;
-    border-bottom: solid black;
-    border-radius: 50px;
-    text-indent: 2%;
-}
-
-.contact-me {
-    line-height: normal;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 100%;
-    height: 200px;
-    border-bottom: solid black;
-    border-radius: 50px;
-    text-indent: 2%;
-}
-
-.resume {
-    line-height: normal;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 100%;
-    height: 200px;
-    border-bottom: solid black;
-    border-radius: 50px;
-    text-indent: 2%;
 }
 
 p {
