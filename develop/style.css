@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: rgba(240, 240, 240, 0.932);
 }
 
 section {
@@ -15,7 +15,7 @@ img {
 }
 
 nav {
-    height: 80px;
+    height: 100px;
     display: flex;
     background-color: #fff;
     justify-content: space-between;
@@ -33,16 +33,18 @@ nav a {
 }
 
 nav a:hover {
-    color: #fff;
+    color: rgb(103, 61, 253);
 }
 
 .logo {
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     font-style: italic;
-    padding: 0rem 2rem;
+    padding: 1rem 2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: solid;
+    border-radius: 100%;
 }
 
 .about-me, .work, .contact-me, .resume {
@@ -55,11 +57,6 @@ nav a:hover {
     text-indent: 2%;
     margin: 2%;
     margin-left: 10%;
-}
-
-.about-me::before {
-    font-family: Impact;
-    content: 'About Me';
 }
 
 p {
